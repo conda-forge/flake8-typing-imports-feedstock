@@ -1,5 +1,5 @@
 {% set name = "flake8-typing-imports" %}
-{% set version = "1.9.0" %}
+{% set version = "1.10.0" %}
 
 
 package:
@@ -8,11 +8,11 @@ package:
 
 source:
   url: https://github.com/asottile/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 0d370755609eefec9496704b9bc37658de3f68c6a145c0181b5eea35c2272772
+  sha256: db30d32a483dfe94014f2e29e869817f11cd71e3b7f527109d344e7705069b37
 
 build:
-  number: 1
-  skip: true   # [py2k]
+  number: 0
+  skip: true  # [py2k]
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
