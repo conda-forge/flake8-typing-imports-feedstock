@@ -5,11 +5,9 @@ Home: https://pypi.org/project/flake8-typing-imports/
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/flake8-typing-imports-feedstock/blob/master/LICENSE.txt)
 
 Summary: flake8 plugin which checks that typing imports are properly guarded
-
-
 
 Current build status
 ====================
